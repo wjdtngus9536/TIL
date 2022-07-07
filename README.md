@@ -5,6 +5,6 @@
 
 * 깃
 
-* [git 내부 동작 원리](./Git_machanism.md)
+* [git 내부 동작 원리](https://github.com/wjdtngus9536/TIL/blob/master/Git_mechanism.md)
 
 * [마크다운](./markdown/)
