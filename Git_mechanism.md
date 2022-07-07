@@ -4,7 +4,7 @@
 
 > 0. 참고 도식
 
-![img]([git] 내부 동작 원리.assets/img.png)
+![img](Git_mechanism.assets/img.png)
 
 ## 1. 용어 정리
 
