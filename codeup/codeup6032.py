@@ -1,0 +1,1 @@
+d = print(-int(input()))
