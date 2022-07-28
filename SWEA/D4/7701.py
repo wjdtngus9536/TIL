@@ -10,7 +10,7 @@ for t in range(1,T+1):
     names.sort()
     names = sorted(names, key = len)
     print('#%d'%t)
-    for i in sorted(names):
+    for i in names:
         print(i)
 
 
