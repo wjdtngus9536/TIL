@@ -42,4 +42,23 @@ select avg(age) from users where age >= 30;
 select first_name, max(balance) from users;
 
 
+
 /* Like */
+
+-- Q. 지역 번호가 02인 사람만 조회한다면?
+select * from users WHERE phone LIKE '02-%';
+-- Q. 이름이 '준'으로 끝나는 사람만 조회한다면?
+select * from users where first_name like '%준';
+-- Q. 중간번호가 5114인 사람만 조회한다면?
+select * from users where phone like '%-5114-%';
+
+
+
+/* ORDER BY */
+
+-- Q. 나이 순으로 오름차순 정렬하여 상위 10개 조회
+select * from users order by age asc limit 10;
+-- Q. 나이 순, 성 순으로 오름차순 정렬하여 상위 10개
+select * from users order by age, last_name LIMIT 5;
+-- Q. 계좌 잔액 순으로 내림차순 정렬하여 해당 유저의 성과 이름 조회
+select last_name, first_name, balance from users order by balance DESC, last_name ASC limit 10;
