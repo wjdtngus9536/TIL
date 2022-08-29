@@ -1,7 +1,5 @@
 # Today I learned
 
-> 삽질 총량 법칙
-
 |No.|Link|Description|
 |:--|:--|:--|
 |01|[Markdown](./Markdown)|Markdown Usage
