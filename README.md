@@ -1,6 +1,12 @@
-# 📓 매일 학습 기록 (TIL)
+# Today I learned
 
-- 마크다운
-- 깃 / 깃허브
-- 파이썬
-- API
+> 삽질 총량 법칙
+
+|No.|Link|Description|
+|:--|:--|:--|
+|01|[Markdown](./Markdown)|Markdown Usage
+|02|[Git & Github](./Git%20%26%20Github/)|
+|03|[Python](./Python/)||
+|04|[Algoright](./Algorithm)||
+|05|[Database](./DataBase/)
+||
