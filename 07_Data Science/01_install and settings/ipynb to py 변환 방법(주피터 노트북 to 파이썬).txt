@@ -1,0 +1,19 @@
+준비
+ipynb to py 변환툴 설치
+pip install nbconvert
+
+
+
+ipynb to py 변환 방법
+jupyter nbconvert --to script filename.ipynb
+
+결과
+[NbConvertApp] Converting notebook filename.ipynb to script
+[NbConvertApp] Writing 1981 bytes to filename.py
+
+
+
+여러 파일 변환법
+jupyter nbconvert --to script filename1.ipynb filename1.ipynb
+or
+jupyter nbconvert --to script *.ipynb
