@@ -1,1 +1,13 @@
 *.sqlite3
+
+# ignore all files in the _build/ directory
+_build/
+
+# ignore all files in the .ipynb_checkpoints/ directory
+.ipynb_checkpoints/
+
+# DS_STORE 파일이란 Desktop Services Store의 약자로, 애플에서 정의한 파일 포맷이다.
+# - 윈도우의 thumb.db 파일과 비슷하다.
+# 맥 OS 환경에서만 생성 및 사용되지만, 파일을 공유하는 과정에서 이 파일도 같이 공유되는 경우가 있다.
+# DS_store 파일은 프로젝트와 관련없는 파일이며, git status를 사용했을 때 발견되는 파일이니, github로 넘기지말고 삭제해도 된다.
+.DS_Store
