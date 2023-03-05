@@ -8,8 +8,4 @@
 
 ## 내용
 
-Git status
-
-학습일 2022년 7월 5일
-
-[링크](./git_status.md)
+[git/github](./Git%20%26%20GutHub.ipynb)
