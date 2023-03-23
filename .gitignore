@@ -2,11 +2,15 @@ roadmap.md
 
 *.sqlite3
 
+*.pth
+
 # ignore all files in the _build/ directory
 _build/
 
 # ignore all files in the .ipynb_checkpoints/ directory
 .ipynb_checkpoints/
+data/
+
 
 # DS_STORE 파일이란 Desktop Services Store의 약자로, 애플에서 정의한 파일 포맷이다.
 # - 윈도우의 thumb.db 파일과 비슷하다.
